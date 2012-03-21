@@ -34,9 +34,14 @@ The following files have been added inside the project:
 
 Usage
 =====
-
 Just download the project folder (``compass_project``) anywhere and run this shell command inside your virtualenv:
 
 ::
 
      $  pinax-admin setup_project -b ../path/to/compass_project yourprojectname
+
+TODO
+====
+ * Fix compass folders with the use of django's collectstatic
+ * Fix requirements, remove bootstrap from twitter
+ * Fix dummy templates that use bootstrap
